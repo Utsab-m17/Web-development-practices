@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link" >
+                    <a href="index.html">Home</a>
+                </div>  
+
+                <div class="nav-link-wrapper">
+                   <a href="about.html">About</a>
+                </div> 
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>~ UTSAB MUKHERJEE</div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="content-wrapper">
+            
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/doctor_strange-wallpaper-2880x1800.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/dailysmarty.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Dr. Strange is Sorcerer Supreme
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/mjolnir_thor-wallpaper-3840x2160.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/dailysmarty.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Odinson Thor is the "God of Thunder" as per Norse Mythology
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/final_fantasy_vii_remake_sephiroth_video_game-wallpaper-3840x2160.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/dailysmarty.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Samurai were a class of warriors arose in the 10th century in Japan
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/neon_lettering_rainbow_128663_2560x1080.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/devtrunk.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Love has nothing to do with what you are expecting to get - only with what you are expecting to give - which is everything.
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/mass_effect_ashley_and_shepard_video_game-wallpaper-3840x2160.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/devtrunk.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            There's more to life than simply increasing it's speed
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/halo_4_2013-wallpaper-2560x1600.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/devtrunk.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Halo had over 5000 dialogue snippets in it - while Halo 2 has three times more
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/wp2544904.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/shop-hacker.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Argentine maestro Leonel Andres Messi has the most number of Ballon D'or and Golden Boots in History.
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/trolley_stop_city_evening_lighting_119292_3840x2400.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/shop-hacker.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            Tokyo is a city that seemingly never sleeps and never stops working.
+                        </div>
+                    </div>                                                    
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/spider_man_14-wallpaper-3840x2160.jpg)"></div>
+         
+                    <div class="image-text-wrapper"> 
+                        <div class="logo-wrapper">
+                            <img src="images/logos/shop-hacker.png" alt="">
+                        </div> 
+                                              
+                        <div class="subtitle">
+                            "With great power comes great responsibility"-famous phrase from Spider Man
+                        </div>
+                    </div>                                                    
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+    portfolioItems.forEach(portfolioItem =>{
+        portfolioItem.addEventListener('mouseover', () =>{
+            portfolioItem.childNodes[1].classList.add('image-darken');
+        })
+        portfolioItem.addEventListener('mouseout', () =>{
+            portfolioItem.childNodes[1].classList.remove('image-darken');
+        })
+    })
+
+</script>
+</html>

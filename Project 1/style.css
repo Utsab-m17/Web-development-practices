@@ -1,0 +1,71 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+header{
+    height: 150px;
+    width: 1024px;
+    text-align: center;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.205);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    text-align: center;
+}
+main{
+    height: 400px;
+    width: 1024px;
+    text-align:center;
+    padding-top: 35px;
+}
+   
+footer{
+    background-color: rgba(0, 0, 0, 0.356);
+    height: 100px;
+    width: auto;
+}
+body{
+    background-color: #2f3035;
+    background-image: url(images/autumn_trees_forest_path-wallpaper-5120x3200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    font-size: 84px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.37);
+    padding-right: 240px;
+    padding-left: 240px;
+}
+a{
+    color: darkslategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.maps{
+    padding-top: 28px;
+    padding-bottom: 70px;
+}
